@@ -16,7 +16,7 @@ end
 def long_planeteer_calls(planeteer)# code an argument here
   # Your code here
   planeteer.map do |word|
-    word.any?
+    if word.any?
 end
 
 def find_the_cheese# code an argument here
